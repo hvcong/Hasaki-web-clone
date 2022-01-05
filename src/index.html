@@ -1,0 +1,2703 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jewerly Shop</title>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/home_reposive.css">
+
+</head>
+
+<body>
+    <div class="container-fluid p-0 app">
+        <header class="header">
+            <div class="container-fluid px-4">
+                <div class="header__banner d-none d-md-block">
+                    <a href="#" class="header__banner-link">
+                        <img src="./assets/images/header-banner.jpeg" alt="" class="header__banner-img">
+                    </a>
+                </div>
+                <div class="navbar">
+                    <a href="#" class="navbar__menu">
+                        <span class="material-icons navbar__menu-icon p-0 me-4">
+                            menu
+                        </span>
+                    </a>
+                    <a href="#" class="navbar__logo flex-grow-1 flex-md-grow-0 p-0 pe-md-4 pb-md-2">
+                        <img src="https://hasaki.vn/images/graphics/logo-new.svg" class="navbar__logo-img" alt="">
+                    </a>
+                    <div class="navbar__search order-last order-md-0 mt-3 mt-md-0">
+                        <div class="navbar__search-nav">
+                            <ul class="navbar__search-nav-list d-none d-md-flex">
+                                <li class="navbar__search-nav-item">
+                                    <a href="#" class="navbar__search-nav-link">Kem chống nắng</a>
+                                </li>
+                                <li class="navbar__search-nav-item">
+                                    <a href="#" class="navbar__search-nav-link">Son dưỡng</a>
+                                </li>
+                                <li class="navbar__search-nav-item">
+                                    <a href="#" class="navbar__search-nav-link">Son lì</a>
+                                </li>
+                                <li class="navbar__search-nav-item">
+                                    <a href="#" class="navbar__search-nav-link">Bông tẩy trang</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="navbar__search-input">
+                            <div class="navbar__search-input-list d-none d-sm-block">
+                                <div class="navbar__search-input-list-btn">
+                                    <span class="navbar__search-input-list-btn-text">Tất cả</span>
+                                    <span class="material-icons navbar__search-input-list-icon">
+                                        arrow_drop_down
+                                    </span>
+                                </div>
+
+                                <div class="navbar__search-input-list-content">
+                                    <div class="navbar__search-input-list-content-titel">Tất cả</div>
+                                    <div class="navbar__search-input-list-content-list">
+                                        <span class="navbar__search-input-list-content-heading">
+                                            Sức khỏe - Làm đẹp
+                                        </span>
+                                        <span class="navbar__search-input-list-content-item">
+                                            Mỹ Phẩm High-End
+                                        </span>
+                                        <span class="navbar__search-input-list-content-item">
+                                            Chăm sóc da mặt
+                                        </span>
+                                        <span class="navbar__search-input-list-content-item">
+                                            Trang Điểm
+                                        </span>
+                                        <span class="navbar__search-input-list-content-item">
+                                            Chăm sóc cơ thể
+                                        </span>
+                                        <span class="navbar__search-input-list-content-item">
+                                            Mỹ Phẩm High-End
+                                        </span>
+                                        <span class="navbar__search-input-list-content-item">
+                                            Chăm sóc da mặt
+                                        </span>
+
+                                    </div>
+                                    <div class="navbar__search-input-list-content-list">
+                                        <span class="navbar__search-input-list-content-heading">
+                                            Sức khỏe - Làm đẹp
+                                        </span>
+                                        <span class="navbar__search-input-list-content-item">
+                                            Mỹ Phẩm High-End
+                                        </span>
+                                        <span class="navbar__search-input-list-content-item">
+                                            Chăm sóc da mặt
+                                        </span>
+                                        <span class="navbar__search-input-list-content-item">
+                                            Trang Điểm
+                                        </span>
+                                        <span class="navbar__search-input-list-content-item">
+                                            Chăm sóc cơ thể
+                                        </span>
+                                        <span class="navbar__search-input-list-content-item">
+                                            Thức uống hỗ trợ tâng cân & làm đẹp
+                                        </span>
+                                        <span class="navbar__search-input-list-content-item">
+                                            Chăm sóc da mặt
+                                        </span>
+
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="navbar__search-input-type">
+                                <input type="text" name="search" id="" class="navbar__search-input-type-enter"
+                                    placeholder="Tìm sản phẩm, thương hiệu bán muốn...">
+
+                                <div class="navbar__search-suggest">
+                                    <div class="navbar__search-suggest-text-list">
+                                        <a href="#" class="navbar__search-suggest-text-link suggest-link">
+                                            <span class="navbar__search-suggest-text-before">dove trong</span>
+                                            <span class="navbar__search-suggest-text-after">Dầu gội</span>
+                                        </a>
+                                        <a href="#" class="navbar__search-suggest-text-link suggest-link">
+                                            <span class="navbar__search-suggest-text-before">dove trong</span>
+                                            <span class="navbar__search-suggest-text-after">Dầu xả</span>
+                                        </a>
+                                        <a href="#" class="navbar__search-suggest-text-link suggest-link">
+                                            <span class="navbar__search-suggest-text-before">dove trong</span>
+                                            <span class="navbar__search-suggest-text-after">Khử mùi cho nữ</span>
+                                        </a>
+
+                                    </div>
+                                    <div class="navbar__search-suggest-product-list">
+                                        <a href="#" class="navbar__search-suggest-product-item suggest-link">
+                                            <img src="./assets/images/product1.jpg"
+                                                class="navbar__search-suggest-product-img"></img>
+                                            <div class="navbar__search-suggest-product-body">
+                                                <span class="navbar__search-suggest-product-price">140.000 đ</span>
+                                                <p class="navbar__search-suggest-product-name">Sữa tắm Dove dưỡng thể
+                                                    900g
+                                                </p>
+                                            </div>
+                                        </a>
+
+                                        <a href="#" class="navbar__search-suggest-product-item suggest-link">
+                                            <img src="./assets/images/product2.jpg"
+                                                class="navbar__search-suggest-product-img"></img>
+                                            <div class="navbar__search-suggest-product-body">
+                                                <span class="navbar__search-suggest-product-price">100.000 đ</span>
+                                                <p class="navbar__search-suggest-product-name">Tinh Chất Sulwhasoo Dưỡng
+                                                    Sáng Da, Chống Oxy Hoá 50ml
+                                                </p>
+                                            </div>
+                                        </a>
+
+                                        <a href="#" class="navbar__search-suggest-product-item suggest-link">
+                                            <img src="./assets/images/product3.jpg"
+                                                class="navbar__search-suggest-product-img"></img>
+                                            <div class="navbar__search-suggest-product-body">
+                                                <span class="navbar__search-suggest-product-price">205.000 đ</span>
+                                                <p class="navbar__search-suggest-product-name">Tinh Chất Garnier Tăng
+                                                    Cường
+                                                    Sáng Da Mờ Thâm 30ml
+                                                </p>
+                                            </div>
+                                        </a>
+
+                                        <a href="#" class="navbar__search-suggest-product-item suggest-link">
+                                            <img src="./assets/images/product4.jpg"
+                                                class="navbar__search-suggest-product-img"></img>
+                                            <div class="navbar__search-suggest-product-body">
+                                                <span class="navbar__search-suggest-product-price">140.000 đ</span>
+                                                <p class="navbar__search-suggest-product-name">Sữa tắm Dove dưỡng thể
+                                                    900g
+                                                </p>
+                                            </div>
+                                        </a>
+
+                                        <a href="#" class="navbar__search-suggest-product-item suggest-link">
+                                            <img src="./assets/images/product5.jpg"
+                                                class="navbar__search-suggest-product-img"></img>
+                                            <div class="navbar__search-suggest-product-body">
+                                                <span class="navbar__search-suggest-product-price">243.000 đ</span>
+                                                <p class="navbar__search-suggest-product-name">Bộ Kem Dưỡng Da Ngày Đêm
+                                                    Garnier Làm Sáng Da 50mlx2
+                                                </p>
+                                            </div>
+                                        </a>
+
+                                    </div>
+                                    <div class="navbar__search-suggest-brand-list">
+
+                                        <a href="#" class="navbar__search-suggest-brand-item">
+                                            <img src="./assets/images/brand1.jpg" alt=""
+                                                class="navbar__search-suggest-brand-img">
+                                        </a>
+                                        <a href="#" class="navbar__search-suggest-brand-item">
+                                            <img src="./assets/images/brand2.jpg" alt=""
+                                                class="navbar__search-suggest-brand-img">
+                                        </a>
+                                        <a href="#" class="navbar__search-suggest-brand-item">
+                                            <img src="./assets/images/brand3.jpg" alt=""
+                                                class="navbar__search-suggest-brand-img">
+                                        </a>
+                                        <a href="#" class="navbar__search-suggest-brand-item">
+                                            <img src="./assets/images/brand4.jpg" alt=""
+                                                class="navbar__search-suggest-brand-img">
+                                        </a>
+                                        <a href="#" class="navbar__search-suggest-brand-item">
+                                            <img src="./assets/images/brand5.jpg" alt=""
+                                                class="navbar__search-suggest-brand-img">
+                                        </a>
+                                        <a href="#" class="navbar__search-suggest-brand-item">
+                                            <img src="./assets/images/brand6.jpg" alt=""
+                                                class="navbar__search-suggest-brand-img">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="btn navbar__search-input-btn ">
+                                <span class="material-icons navbar__search-input-btn-icon">
+                                    search
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="navbar__option">
+                        <a href="#" class="navbar__option-item ps-lg-5 ps-sm-4 pe-2 pe-md-0">
+                            <div class="navbar__option-item-left ">
+                                <span class="material-icons navbar__option-item-icon">
+                                    shopping_cart
+                                </span>
+
+                                <span class="navbar__option-item-number">2</span>
+                            </div>
+
+                            <div class="navbar__option-item-right d-none d-lg-flex">
+                                <div class="navbar__option-item-text">
+                                    Giỏ<br>hàng
+                                </div>
+                            </div>
+                        </a>
+
+                        <div class="navbar__option-item d-none ps-lg-5 ps-4 d-lg-flex">
+                            <div class="navbar__option-item-left">
+                                <span class="material-icons navbar__option-item-icon">
+                                    person
+                                </span>
+                            </div>
+
+                            <a href="#" class="navbar__option-item-right">
+                                <div class="navbar__option-item-text">
+                                    Chào công
+                                </div>
+                                <div class="navbar__option-item-text navbar__option-item-account">
+                                    Tài khoản
+                                    <span class="material-icons navbar__option-item-text-icon">
+                                        arrow_drop_down
+                                    </span>
+                                </div>
+                            </a>
+
+                            <div class="navbar__option-item-account-list arrow-up">
+                                <span class="transparent-box"></span>
+                                <a href="#" class="navbar__option-item-account-item">
+                                    <span class="material-icons navbar__option-item-account-item-icon">
+                                        description
+                                    </span>
+                                    <span class="navbar__option-item-account-item-text">Tài khoản của bạn</span>
+                                </a>
+
+                                <a href="#" class="navbar__option-item-account-item">
+                                    <span class="material-icons navbar__option-item-account-item-icon">
+                                        ballot
+                                    </span>
+                                    <span class="navbar__option-item-account-item-text">Quản lí đơn hàng</span>
+                                </a>
+                                <a href="#" class="navbar__option-item-account-item">
+                                    <span class="material-icons navbar__option-item-account-item-icon">
+                                        favorite_border
+                                    </span>
+                                    <span class="navbar__option-item-account-item-text">Sản phẩm yêu thích</span>
+                                </a>
+                                <a href="#" class="navbar__option-item-account-item">
+                                    <span class="material-icons navbar__option-item-account-item-icon">
+                                        place
+                                    </span>
+                                    <span class="navbar__option-item-account-item-text">Địa chỉ giao hàng</span>
+                                </a>
+                                <a href="#" class="navbar__option-item-account-item">
+                                    <span class="material-icons navbar__option-item-account-item-icon">
+                                        logout
+                                    </span>
+                                    <span class="navbar__option-item-account-item-text">Thoát</span>
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                        <a href="#" class="navbar__option-item ps-lg-5 ps-4 d-none d-lg-flex">
+                            <div class="navbar__option-item-left">
+                                <span class="material-icons navbar__option-item-icon">
+                                    call
+                                </span>
+                            </div>
+
+                            <div class="navbar__option-item-right">
+                                <div class="navbar__option-item-text">
+                                    Hỗ trợ <br>khách hàng
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </header>
+
+        <main class="main">
+            <!-- filter-top -->
+            <div class="filter__top-wrap box-shadow-sm d-none d-md-block">
+                <div class="container-fluid px-4">
+                    <div class="filter__top">
+
+                        <div class="filter__top-loaction-wrap  d-none d-lg-block">
+                            <div class="filter__top-location">
+                                <span class="material-icons filter__top-location-icon">
+                                    place
+                                </span>
+                                <span class="filter__top-location-text">Phường 8, Quận 10, TP Hồ Chí Minh</span>
+                            </div>
+                        </div>
+
+
+                        <div class="filter__top-menu">
+                            <a href="#" class="filter__top-menu-item">HaSaki deals</a>
+                            <a href="#" class="filter__top-menu-item">Hot deals</a>
+                            <a href="#" class="filter__top-menu-item">thương hiệu</a>
+                            <a href="#" class="filter__top-menu-item">Hàng mới về</a>
+                            <a href="#" class="filter__top-menu-item">bán chạy</a>
+                            <a href="#" class="filter__top-menu-item">clinic & spa</a>
+                        </div>
+
+                        <div class="filter__top-media d-none d-lg-block">
+                            <div class="filter__top-media-down">
+                                <span class="material-icons filter__top-media-icon">
+                                    phone_iphone
+                                </span>
+                                <span class="filter__top-media-text">
+                                    Tải ứng dụng
+                                </span>
+                            </div>
+
+                            <a href="#" class="filter__top-media-view">
+                                <span class="material-icons filter__top-media-icon">
+                                    shopping_bag
+                                </span>
+
+                                <span class="filter__top-media-text">
+                                    Tra cứu đơn hàng
+                                </span>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- banner + slide -->
+            <div class="banner__wrap box-shadow-sm">
+                <div class="container-fluid px-4">
+                    <div class="banner">
+                        <div class="row g-2">
+                            <div class="col-md-8">
+                                <div class="slide">
+                                    <div class="slide-group">
+                                        <img src="./assets/images/slide1.jpg" class="slide-item" alt="">
+                                        <img src="./assets/images/slide2.jpg" class="slide-item" alt="">
+                                        <img src="./assets/images/slide3.jpg" class="slide-item" alt="">
+                                    </div>
+
+                                    <!-- slide btn -->
+                                    <a href="#" class="slide-btn-prev d-none d-md-block">
+                                        <span class="material-icons slide-btn-prev-icon">
+                                            arrow_back_ios
+                                        </span>
+                                    </a>
+                                    <a href="#" class="slide-btn-next d-none d-md-block">
+                                        <span class="material-icons slide-btn-next-icon">
+                                            arrow_forward_ios
+                                        </span>
+                                    </a>
+
+                                    <div class="slide-filter">
+                                        <a class="slide-filter-dot active"></a>
+                                        <a class="slide-filter-dot"></a>
+                                        <a class="slide-filter-dot"></a>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            <div class="col-md-4 d-none d-md-flex">
+                                <div class="row g-2">
+                                    <div class="col-12">
+                                        <img src="./assets/images/banner-main1.jpg" alt="" class="banner__right-img">
+                                    </div>
+                                    <div class="col-12">
+                                        <img src="./assets/images/banner-main2.jpg" alt="" class="banner__right-img">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="categories">
+                        <div class="row flex-wrap">
+                            <div class="col">
+                                <a href="#" class="categories__item">
+                                    <img src="https://hasaki.vn/img/hsk/icon/deals.svg" alt=""
+                                        class="categories__item-img">
+                                    <span class="categories__item-text">Deals</span>
+                                </a>
+                            </div>
+                            <div class="col">
+                                <a href="#" class="categories__item">
+                                    <img src="https://hasaki.vn/img/hsk/icon/now-free.svg" alt=""
+                                        class="categories__item-img">
+                                    <span class="categories__item-text">Giao 2h</span>
+                                </a>
+                            </div>
+                            <div class="col">
+                                <a href="#" class="categories__item">
+                                    <img src="https://hasaki.vn/img/hsk/icon/special.svg" alt=""
+                                        class="categories__item-img">
+                                    <span class="categories__item-text">Bán chạy</span>
+                                </a>
+                            </div>
+                            <div class="col">
+                                <a href="#" class="categories__item">
+                                    <img src="https://hasaki.vn/img/hsk/icon/spa.svg" alt=""
+                                        class="categories__item-img">
+                                    <span class="categories__item-text">Clinic & S.P.A</span>
+                                </a>
+                            </div>
+                            <div class="col">
+                                <a href="#" class="categories__item">
+                                    <img src="	https://hasaki.vn/img/hsk/icon/bang-gia.svg" alt=""
+                                        class="categories__item-img">
+                                    <span class="categories__item-text">Bảng giá</span>
+                                </a>
+                            </div>
+                            <div class="col">
+                                <a href="#" class="categories__item">
+                                    <img src="https://hasaki.vn/img/hsk/icon/flash-deal.svg" alt=""
+                                        class="categories__item-img">
+                                    <span class="categories__item-text">Deal 22h-24h</span>
+                                </a>
+                            </div>
+                            <div class="col">
+                                <a href="#" class="categories__item">
+                                    <img src="https://hasaki.vn/img/hsk/icon/dat-lich.svg" alt=""
+                                        class="categories__item-img">
+                                    <span class="categories__item-text">Đặt hẹn</span>
+                                </a>
+                            </div>
+                            <div class="col">
+                                <a href="#" class="categories__item">
+                                    <img src="https://hasaki.vn/img/hsk/icon/cam-nang.svg" alt=""
+                                        class="categories__item-img">
+                                    <span class="categories__item-text">Cẩm nang</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- deals -->
+            <div class="deals__wrap">
+                <div class="container-fluid px-4">
+                    <div class="deals">
+                        <div class="deals__heading flex-wrap flex-md-nowrap">
+                            <img src="https://hasaki.vn/images/graphics/flash_deal_title_orange.svg" alt=""
+                                class="deals__icon">
+                            <a href="#" class="deals__titel">
+                                DEALS ĐANG DIỄN RA
+                            </a>
+                            <div class="deals__time ">
+                                <span class="deals__time-text d-none d-md-inline-block">kết thúc trong</span>
+                                <span class="deals__time-group">
+                                    <span class="deals__time-value">04</span> :
+                                    <span class="deals__time-value">07</span> :
+                                    <span class="deals__time-value">24</span>
+                                </span>
+                            </div>
+                            <a href="#" class=" btn deals__btn">Xem tất cả</a>
+                        </div>
+
+                        <!-- deals slide -->
+                        <div class="deals__body">
+
+                            <div class="slide">
+                                <div class="slide-group">
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- section-1 -->
+            <div class="section__wrap section-1">
+                <div class="container-fluid px-4">
+                    <div class="section ">
+                        <div class="section__header">
+                            <h2 class="section__header-titel">Danh mục quan tâm</h2>
+                            <a href="#" class="btn section__header-btn">Xem tất cả</a>
+                        </div>
+
+                        <div class="section__body">
+                            <div class="row g-md-3 g-2">
+                                <div class="col-4 col-md-2">
+                                    <a href="#" class="section__item">
+                                        <div class="section__item-top">
+                                            <img src="./assets/images/care1.jpg" alt="" class="section__item-img">
+                                        </div>
+                                        <div class="section__item-body">
+                                            <h4 class="section__item-text">Trang Điểm Mặt</h4>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-4 col-md-2">
+                                    <a href="#" class="section__item">
+                                        <div class="section__item-top">
+                                            <img src="./assets/images/care2.jpg" alt="" class="section__item-img">
+                                        </div>
+                                        <div class="section__item-body">
+                                            <h4 class="section__item-text">Trang Điểm Môi</h4>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-4 col-md-2">
+                                    <a href="#" class="section__item">
+                                        <div class="section__item-top">
+                                            <img src="./assets/images/care3.jpg" alt="" class="section__item-img">
+                                        </div>
+                                        <div class="section__item-body">
+                                            <h4 class="section__item-text">Tẩy trang mắt - môi</h4>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-4 col-md-2">
+                                    <a href="#" class="section__item">
+                                        <div class="section__item-top">
+                                            <img src="./assets/images/care4.jpg" alt="" class="section__item-img">
+                                        </div>
+                                        <div class="section__item-body">
+                                            <h4 class="section__item-text">Trang Điểm Vùng mắt</h4>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-4 col-md-2">
+                                    <a href="#" class="section__item">
+                                        <div class="section__item-top">
+                                            <img src="./assets/images/care5.jpg" alt="" class="section__item-img">
+                                        </div>
+                                        <div class="section__item-body">
+                                            <h4 class="section__item-text">Chăm soc móng</h4>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-4 col-md-2 d-none d-md-block">
+                                    <a href="#" class="section__item">
+                                        <div class="section__item-top">
+                                            <img src="./assets/images/care6.jpg" alt="" class="section__item-img">
+                                        </div>
+                                        <div class="section__item-body">
+                                            <h4 class="section__item-text">Dụng cụ trang điểm</h4>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-4 col-md-2 d-none d-md-block">
+                                    <a href="#" class="section__item">
+                                        <div class="section__item-top">
+                                            <img src="./assets/images/care7.jpg" alt="" class="section__item-img">
+                                        </div>
+                                        <div class="section__item-body">
+                                            <h4 class="section__item-text">Khăn - Bông tẩy trang</h4>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-4 col-md-2 d-none d-md-block">
+                                    <a href="#" class="section__item">
+                                        <div class="section__item-top">
+                                            <img src="./assets/images/care8.jpg" alt="" class="section__item-img">
+                                        </div>
+                                        <div class="section__item-body">
+                                            <h4 class="section__item-text">Chăm sóc cơ thể</h4>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-4 col-md-2 d-none d-md-block">
+                                    <a href="#" class="section__item">
+                                        <div class="section__item-top">
+                                            <img src="./assets/images/care9.jpg" alt="" class="section__item-img">
+                                        </div>
+                                        <div class="section__item-body">
+                                            <h4 class="section__item-text">Nước hoa nam</h4>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-4 col-md-2 d-none d-md-block">
+                                    <a href="#" class="section__item">
+                                        <div class="section__item-top">
+                                            <img src="./assets/images/care10.jpg" alt="" class="section__item-img">
+                                        </div>
+                                        <div class="section__item-body">
+                                            <h4 class="section__item-text">Nước hoa nữ</h4>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-4 col-md-2 d-none d-md-block">
+                                    <a href="#" class="section__item">
+                                        <div class="section__item-top">
+                                            <img src="./assets/images/care11.jpg" alt="" class="section__item-img">
+                                        </div>
+                                        <div class="section__item-body">
+                                            <h4 class="section__item-text">Thực phẩm chức năng</h4>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-4 col-md-2 d-none d-md-block">
+                                    <a href="#" class="section__item">
+                                        <div class="section__item-top">
+                                            <img src="./assets/images/care12.jpg" alt="" class="section__item-img">
+                                        </div>
+                                        <div class="section__item-body">
+                                            <h4 class="section__item-text">Giảm béo</h4>
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- hide on >md -->
+                                <div class="col-4 col-md-2 d-block d-md-none item-all">
+                                    <a href="#" class="section__item">
+                                        <div class="section__item-top">
+                                            <img src="./assets/images/care12.jpg" alt="" class="section__item-img">
+                                        </div>
+                                        <div class="section__item-body">
+
+                                            <h4 class="section__item-text">
+                                                <span class="section__item-text-sub">...<br></span>
+                                                Xem tất cả
+                                            </h4>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <!-- section-2 -->
+            <div class="section__wrap section-2">
+                <div class="container-fluid px-4">
+                    <div class="section">
+                        <div class="section__header">
+                            <h2 class="section__header-titel">Thương hiệu nổi bật</h2>
+                            <a href="#" class="btn section__header-btn">Xem tất cả</a>
+                        </div>
+
+                        <div class="section__body">
+                            <div class="slide">
+                                <div class="slide-group">
+                                    <a href="#" class="slide-item">
+                                        <img src="./assets/images/section-2-1.jpg" alt=""
+                                            class="section__body-img-primary">
+                                        <img src="./assets/images/section-2-1-sub.jpg" alt=""
+                                            class="section__body-img-sub ">
+                                    </a>
+                                    <a href="#" class="slide-item">
+                                        <img src="./assets/images/section-2-2.jpg" alt=""
+                                            class="section__body-img-primary">
+                                        <img src="./assets/images/section-2-2-sub.jpg" alt=""
+                                            class="section__body-img-sub">
+                                    </a>
+                                    <a href="#" class="slide-item">
+                                        <img src="./assets/images/section-2-3.jpg" alt=""
+                                            class="section__body-img-primary">
+                                        <img src="./assets/images/section-2-3-sub.jpg" alt=""
+                                            class="section__body-img-sub">
+                                    </a>
+                                    <a href="#" class="slide-item">
+                                        <img src="./assets/images/section-2-4.jpg" alt=""
+                                            class="section__body-img-primary">
+                                        <img src="./assets/images/section-2-4-sub.jpg" alt=""
+                                            class="section__body-img-sub">
+                                    </a>
+                                    <a href="#" class="slide-item">
+                                        <img src="./assets/images/section-2-5.jpg" alt=""
+                                            class="section__body-img-primary">
+                                        <img src="./assets/images/section-2-5-sub.jpg" alt=""
+                                            class="section__body-img-sub">
+                                    </a>
+                                    <a href="#" class="slide-item">
+                                        <img src="./assets/images/section-2-6.jpg" alt=""
+                                            class="section__body-img-primary">
+                                        <img src="./assets/images/section-2-6-sub.jpg" alt=""
+                                            class="section__body-img-sub">
+                                    </a>
+                                    <a href="#" class="slide-item">
+                                        <img src="./assets/images/section-2-7.jpg" alt=""
+                                            class="section__body-img-primary">
+                                        <img src="./assets/images/section-2-7-sub.jpg" alt=""
+                                            class="section__body-img-sub">
+                                    </a>
+                                </div>
+                                <!-- slide btn -->
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- section-3 -->
+            <div class="section__wrap section-3 d-none d-md-block">
+                <div class="container-fluid px-4">
+                    <div class="section">
+                        <div class="section__header">
+                            <h2 class="section__header-titel">Top tìm kiếm</h2>
+                        </div>
+
+                        <div class="section__body">
+                            <div class="row">
+                                <a href="#" class="col-md-3">
+                                    <div class="section__item">
+                                        <div class="row g-0">
+                                            <div class="col-8">
+                                                <div class="section__item-left">
+                                                    <img src="./assets/images/section-3-1.jpg" alt=""
+                                                        class="section__item-img">
+                                                    <div class="section__item-text">
+                                                        <p class="section__item-name">Kem chống nắng</p>
+                                                        <span class="section__item-num">
+                                                            1444 sản phẩm
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-4">
+                                                <div class="row g-0">
+                                                    <div class="col-12">
+                                                        <img src="./assets/images/section-3-1-1-sub.jpg" alt=""
+                                                            class="section__item-img section__item-img-1">
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <img src="./assets/images/section-3-1-2-sub.jpg" alt=""
+                                                            class="section__item-img section__item-img-2">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="#" class="col-md-3">
+                                    <div class="section__item">
+                                        <div class="row g-0">
+                                            <div class="col-8">
+                                                <div class="section__item-left">
+                                                    <img src="./assets/images/section-3-2.jpg" alt=""
+                                                        class="section__item-img">
+                                                    <div class="section__item-text">
+                                                        <p class="section__item-name">Kem chống nắng</p>
+                                                        <span class="section__item-num">
+                                                            1444 sản phẩm
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-4">
+                                                <div class="row g-0">
+                                                    <div class="col-12">
+                                                        <img src="./assets/images/section-3-2-1-sub.jpg" alt=""
+                                                            class="section__item-img section__item-img-1">
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <img src="./assets/images/section-3-2-2-sub.jpg" alt=""
+                                                            class="section__item-img section__item-img-2">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="#" class="col-md-3">
+                                    <div class="section__item">
+                                        <div class="row g-0">
+                                            <div class="col-8">
+                                                <div class="section__item-left">
+                                                    <img src="./assets/images/section-3-3.jpg" alt=""
+                                                        class="section__item-img">
+                                                    <div class="section__item-text">
+                                                        <p class="section__item-name">Kem chống nắng</p>
+                                                        <span class="section__item-num">
+                                                            1444 sản phẩm
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-4">
+                                                <div class="row g-0">
+                                                    <div class="col-12">
+                                                        <img src="./assets/images/section-3-3-1-sub.jpg" alt=""
+                                                            class="section__item-img section__item-img-1">
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <img src="./assets/images/section-3-3-2-sub.jpg" alt=""
+                                                            class="section__item-img section__item-img-2">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="#" class="col-md-3">
+                                    <div class="section__item">
+                                        <div class="row g-0">
+                                            <div class="col-8">
+                                                <div class="section__item-left">
+                                                    <img src="./assets/images/section-3-4.jpg" alt=""
+                                                        class="section__item-img">
+                                                    <div class="section__item-text">
+                                                        <p class="section__item-name">Kem chống nắng</p>
+                                                        <span class="section__item-num">
+                                                            1444 sản phẩm
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-4">
+                                                <div class="row g-0">
+                                                    <div class="col-12">
+                                                        <img src="./assets/images/section-3-4-1-sub.jpg" alt=""
+                                                            class="section__item-img section__item-img-1">
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <img src="./assets/images/section-3-4-2-sub.jpg" alt=""
+                                                            class="section__item-img section__item-img-2">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- section-4 -->
+            <div class="section__wrap section-4">
+                <div class="container-fluid px-4">
+                    <div class="section">
+                        <div class="section__header">
+                            <h2 class="section__header-titel">Mỹ phẩm high-End</h2>
+                            <a href="#" class="btn section__header-btn">Xem tất cả</a>
+                        </div>
+
+                        <div class="section__body">
+                            <div class="slide">
+                                <div class="slide-group">
+                                    <div class="slide-item">
+                                        <!-- product -->
+                                        <div class="product">
+                                            <a href="#" class="product-link">
+                                                <div class="product__top">
+                                                    <img src="./assets/images/product8.jpg" alt="" class="product__img">
+                                                </div>
+                                                <div class="product__body">
+                                                    <div class="product__price">
+                                                        <span class="product__price-current">431.000 đ</span>
+                                                        <span class="product__price-old">445.000đ</span>
+                                                        <span class="product__price-sale">21%</span>
+                                                    </div>
+                                                    <p class="product__brand">LA ROCHE-POSAY</p>
+                                                    <div class="product__name">
+                                                        <p class="product__name-vn">Nước Tẩy Trang La Roche-Posay Dành
+                                                            Cho Da Nhạy Cảm 400ml</p>
+                                                        <p class="product__name-en">Micellar Water Ultra Sensitive Skin
+                                                        </p>
+                                                    </div>
+                                                    <div class="product__count">
+                                                        <div class="product__count-start">
+                                                            <div class="product__count-start-icons">
+                                                                <span class="material-icons product__count-start-icon">
+                                                                    star
+                                                                </span>
+                                                                <span class="material-icons product__count-start-icon">
+                                                                    star
+                                                                </span>
+                                                                <span class="material-icons product__count-start-icon">
+                                                                    star
+                                                                </span>
+                                                                <span class="material-icons product__count-start-icon">
+                                                                    star
+                                                                </span>
+                                                                <span class="material-icons product__count-start-icon">
+                                                                    star
+                                                                </span>
+                                                            </div>
+                                                            <span class="product__count-start-num">(34)</span>
+                                                            <span class="wall"></span>
+                                                        </div>
+                                                        <div class="product__count-saled">
+                                                            <span class="material-icons product__count-saled-icon">
+                                                                shopping_cart
+                                                            </span>
+
+                                                            <div class="span product__count-saled-num">1.231</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product__progress">
+                                                        <div class="product__progress-track">
+                                                            <div class="product__progress-fill-wrap">
+                                                                <div class="product__progress-fill"></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="product__progress-value">80%</div>
+                                                    </div>
+
+
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                    </div>
+                                    <div class="slide-item">
+                                        <!-- product -->
+                                        <div class="product">
+                                            <a href="#" class="product-link">
+                                                <div class="product__top">
+                                                    <img src="./assets/images/product8.jpg" alt="" class="product__img">
+                                                </div>
+                                                <div class="product__body">
+                                                    <div class="product__price">
+                                                        <span class="product__price-current">431.000 đ</span>
+                                                        <span class="product__price-old">445.000đ</span>
+                                                        <span class="product__price-sale">21%</span>
+                                                    </div>
+                                                    <p class="product__brand">LA ROCHE-POSAY</p>
+                                                    <div class="product__name">
+                                                        <p class="product__name-vn">Nước Tẩy Trang La Roche-Posay Dành
+                                                            Cho Da Nhạy Cảm 400ml</p>
+                                                        <p class="product__name-en">Micellar Water Ultra Sensitive Skin
+                                                        </p>
+                                                    </div>
+                                                    <div class="product__count">
+                                                        <div class="product__count-start">
+                                                            <div class="product__count-start-icons">
+                                                                <span class="material-icons product__count-start-icon">
+                                                                    star
+                                                                </span>
+                                                                <span class="material-icons product__count-start-icon">
+                                                                    star
+                                                                </span>
+                                                                <span class="material-icons product__count-start-icon">
+                                                                    star
+                                                                </span>
+                                                                <span class="material-icons product__count-start-icon">
+                                                                    star
+                                                                </span>
+                                                                <span class="material-icons product__count-start-icon">
+                                                                    star
+                                                                </span>
+                                                            </div>
+                                                            <span class="product__count-start-num">(34)</span>
+                                                            <span class="wall"></span>
+                                                        </div>
+                                                        <div class="product__count-saled">
+                                                            <span class="material-icons product__count-saled-icon">
+                                                                shopping_cart
+                                                            </span>
+
+                                                            <div class="span product__count-saled-num">1.231</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product__progress">
+                                                        <div class="product__progress-track">
+                                                            <div class="product__progress-fill-wrap">
+                                                                <div class="product__progress-fill"></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="product__progress-value">80%</div>
+                                                    </div>
+
+
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                    </div>
+                                    <div class="slide-item">
+                                        <!-- product -->
+                                        <div class="product">
+                                            <a href="#" class="product-link">
+                                                <div class="product__top">
+                                                    <img src="./assets/images/product8.jpg" alt="" class="product__img">
+                                                </div>
+                                                <div class="product__body">
+                                                    <div class="product__price">
+                                                        <span class="product__price-current">431.000 đ</span>
+                                                        <span class="product__price-old">445.000đ</span>
+                                                        <span class="product__price-sale">21%</span>
+                                                    </div>
+                                                    <p class="product__brand">LA ROCHE-POSAY</p>
+                                                    <div class="product__name">
+                                                        <p class="product__name-vn">Nước Tẩy Trang La Roche-Posay Dành
+                                                            Cho Da Nhạy Cảm 400ml</p>
+                                                        <p class="product__name-en">Micellar Water Ultra Sensitive Skin
+                                                        </p>
+                                                    </div>
+                                                    <div class="product__count">
+                                                        <div class="product__count-start">
+                                                            <div class="product__count-start-icons">
+                                                                <span class="material-icons product__count-start-icon">
+                                                                    star
+                                                                </span>
+                                                                <span class="material-icons product__count-start-icon">
+                                                                    star
+                                                                </span>
+                                                                <span class="material-icons product__count-start-icon">
+                                                                    star
+                                                                </span>
+                                                                <span class="material-icons product__count-start-icon">
+                                                                    star
+                                                                </span>
+                                                                <span class="material-icons product__count-start-icon">
+                                                                    star
+                                                                </span>
+                                                            </div>
+                                                            <span class="product__count-start-num">(34)</span>
+                                                            <span class="wall"></span>
+                                                        </div>
+                                                        <div class="product__count-saled">
+                                                            <span class="material-icons product__count-saled-icon">
+                                                                shopping_cart
+                                                            </span>
+
+                                                            <div class="span product__count-saled-num">1.231</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product__progress">
+                                                        <div class="product__progress-track">
+                                                            <div class="product__progress-fill-wrap">
+                                                                <div class="product__progress-fill"></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="product__progress-value">80%</div>
+                                                    </div>
+
+
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                    </div>
+                                    <div class="slide-item">
+                                        <!-- product -->
+                                        <div class="product">
+                                            <a href="#" class="product-link">
+                                                <div class="product__top">
+                                                    <img src="./assets/images/product8.jpg" alt="" class="product__img">
+                                                </div>
+                                                <div class="product__body">
+                                                    <div class="product__price">
+                                                        <span class="product__price-current">431.000 đ</span>
+                                                        <span class="product__price-old">445.000đ</span>
+                                                        <span class="product__price-sale">21%</span>
+                                                    </div>
+                                                    <p class="product__brand">LA ROCHE-POSAY</p>
+                                                    <div class="product__name">
+                                                        <p class="product__name-vn">Nước Tẩy Trang La Roche-Posay Dành
+                                                            Cho Da Nhạy Cảm 400ml</p>
+                                                        <p class="product__name-en">Micellar Water Ultra Sensitive Skin
+                                                        </p>
+                                                    </div>
+                                                    <div class="product__count">
+                                                        <div class="product__count-start">
+                                                            <div class="product__count-start-icons">
+                                                                <span class="material-icons product__count-start-icon">
+                                                                    star
+                                                                </span>
+                                                                <span class="material-icons product__count-start-icon">
+                                                                    star
+                                                                </span>
+                                                                <span class="material-icons product__count-start-icon">
+                                                                    star
+                                                                </span>
+                                                                <span class="material-icons product__count-start-icon">
+                                                                    star
+                                                                </span>
+                                                                <span class="material-icons product__count-start-icon">
+                                                                    star
+                                                                </span>
+                                                            </div>
+                                                            <span class="product__count-start-num">(34)</span>
+                                                            <span class="wall"></span>
+                                                        </div>
+                                                        <div class="product__count-saled">
+                                                            <span class="material-icons product__count-saled-icon">
+                                                                shopping_cart
+                                                            </span>
+
+                                                            <div class="span product__count-saled-num">1.231</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product__progress">
+                                                        <div class="product__progress-track">
+                                                            <div class="product__progress-fill-wrap">
+                                                                <div class="product__progress-fill"></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="product__progress-value">80%</div>
+                                                    </div>
+
+
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                    </div>
+                                    <div class="slide-item">
+                                        <!-- product -->
+                                        <div class="product">
+                                            <a href="#" class="product-link">
+                                                <div class="product__top">
+                                                    <img src="./assets/images/product8.jpg" alt="" class="product__img">
+                                                </div>
+                                                <div class="product__body">
+                                                    <div class="product__price">
+                                                        <span class="product__price-current">431.000 đ</span>
+                                                        <span class="product__price-old">445.000đ</span>
+                                                        <span class="product__price-sale">21%</span>
+                                                    </div>
+                                                    <p class="product__brand">LA ROCHE-POSAY</p>
+                                                    <div class="product__name">
+                                                        <p class="product__name-vn">Nước Tẩy Trang La Roche-Posay Dành
+                                                            Cho Da Nhạy Cảm 400ml</p>
+                                                        <p class="product__name-en">Micellar Water Ultra Sensitive Skin
+                                                        </p>
+                                                    </div>
+                                                    <div class="product__count">
+                                                        <div class="product__count-start">
+                                                            <div class="product__count-start-icons">
+                                                                <span class="material-icons product__count-start-icon">
+                                                                    star
+                                                                </span>
+                                                                <span class="material-icons product__count-start-icon">
+                                                                    star
+                                                                </span>
+                                                                <span class="material-icons product__count-start-icon">
+                                                                    star
+                                                                </span>
+                                                                <span class="material-icons product__count-start-icon">
+                                                                    star
+                                                                </span>
+                                                                <span class="material-icons product__count-start-icon">
+                                                                    star
+                                                                </span>
+                                                            </div>
+                                                            <span class="product__count-start-num">(34)</span>
+                                                            <span class="wall"></span>
+                                                        </div>
+                                                        <div class="product__count-saled">
+                                                            <span class="material-icons product__count-saled-icon">
+                                                                shopping_cart
+                                                            </span>
+
+                                                            <div class="span product__count-saled-num">1.231</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product__progress">
+                                                        <div class="product__progress-track">
+                                                            <div class="product__progress-fill-wrap">
+                                                                <div class="product__progress-fill"></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="product__progress-value">80%</div>
+                                                    </div>
+
+
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                    </div>
+                                    <div class="slide-item">
+                                        <!-- product -->
+                                        <div class="product">
+                                            <a href="#" class="product-link">
+                                                <div class="product__top">
+                                                    <img src="./assets/images/product8.jpg" alt="" class="product__img">
+                                                </div>
+                                                <div class="product__body">
+                                                    <div class="product__price">
+                                                        <span class="product__price-current">431.000 đ</span>
+                                                        <span class="product__price-old">445.000đ</span>
+                                                        <span class="product__price-sale">21%</span>
+                                                    </div>
+                                                    <p class="product__brand">LA ROCHE-POSAY</p>
+                                                    <div class="product__name">
+                                                        <p class="product__name-vn">Nước Tẩy Trang La Roche-Posay Dành
+                                                            Cho Da Nhạy Cảm 400ml</p>
+                                                        <p class="product__name-en">Micellar Water Ultra Sensitive Skin
+                                                        </p>
+                                                    </div>
+                                                    <div class="product__count">
+                                                        <div class="product__count-start">
+                                                            <div class="product__count-start-icons">
+                                                                <span class="material-icons product__count-start-icon">
+                                                                    star
+                                                                </span>
+                                                                <span class="material-icons product__count-start-icon">
+                                                                    star
+                                                                </span>
+                                                                <span class="material-icons product__count-start-icon">
+                                                                    star
+                                                                </span>
+                                                                <span class="material-icons product__count-start-icon">
+                                                                    star
+                                                                </span>
+                                                                <span class="material-icons product__count-start-icon">
+                                                                    star
+                                                                </span>
+                                                            </div>
+                                                            <span class="product__count-start-num">(34)</span>
+                                                            <span class="wall"></span>
+                                                        </div>
+                                                        <div class="product__count-saled">
+                                                            <span class="material-icons product__count-saled-icon">
+                                                                shopping_cart
+                                                            </span>
+
+                                                            <div class="span product__count-saled-num">1.231</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product__progress">
+                                                        <div class="product__progress-track">
+                                                            <div class="product__progress-fill-wrap">
+                                                                <div class="product__progress-fill"></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="product__progress-value">80%</div>
+                                                    </div>
+
+
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="slide-item">
+                                        <!-- product -->
+                                        <div class="product">
+                                            <a href="#" class="product-link">
+                                                <div class="product__top">
+                                                    <img src="./assets/images/product8.jpg" alt="" class="product__img">
+                                                </div>
+                                                <div class="product__body">
+                                                    <div class="product__price">
+                                                        <span class="product__price-current">431.000 đ</span>
+                                                        <span class="product__price-old">445.000đ</span>
+                                                        <span class="product__price-sale">21%</span>
+                                                    </div>
+                                                    <p class="product__brand">LA ROCHE-POSAY</p>
+                                                    <div class="product__name">
+                                                        <p class="product__name-vn">Nước Tẩy Trang La Roche-Posay Dành
+                                                            Cho Da Nhạy Cảm 400ml</p>
+                                                        <p class="product__name-en">Micellar Water Ultra Sensitive Skin
+                                                        </p>
+                                                    </div>
+                                                    <div class="product__count">
+                                                        <div class="product__count-start">
+                                                            <div class="product__count-start-icons">
+                                                                <span class="material-icons product__count-start-icon">
+                                                                    star
+                                                                </span>
+                                                                <span class="material-icons product__count-start-icon">
+                                                                    star
+                                                                </span>
+                                                                <span class="material-icons product__count-start-icon">
+                                                                    star
+                                                                </span>
+                                                                <span class="material-icons product__count-start-icon">
+                                                                    star
+                                                                </span>
+                                                                <span class="material-icons product__count-start-icon">
+                                                                    star
+                                                                </span>
+                                                            </div>
+                                                            <span class="product__count-start-num">(34)</span>
+                                                            <span class="wall"></span>
+                                                        </div>
+                                                        <div class="product__count-saled">
+                                                            <span class="material-icons product__count-saled-icon">
+                                                                shopping_cart
+                                                            </span>
+
+                                                            <div class="span product__count-saled-num">1.231</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product__progress">
+                                                        <div class="product__progress-track">
+                                                            <div class="product__progress-fill-wrap">
+                                                                <div class="product__progress-fill"></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="product__progress-value">80%</div>
+                                                    </div>
+
+
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                    </div>
+                                    <div class="slide-item">
+                                        <!-- product -->
+                                        <div class="product">
+                                            <a href="#" class="product-link">
+                                                <div class="product__top">
+                                                    <img src="./assets/images/product8.jpg" alt="" class="product__img">
+                                                </div>
+                                                <div class="product__body">
+                                                    <div class="product__price">
+                                                        <span class="product__price-current">431.000 đ</span>
+                                                        <span class="product__price-old">445.000đ</span>
+                                                        <span class="product__price-sale">21%</span>
+                                                    </div>
+                                                    <p class="product__brand">LA ROCHE-POSAY</p>
+                                                    <div class="product__name">
+                                                        <p class="product__name-vn">Nước Tẩy Trang La Roche-Posay Dành
+                                                            Cho Da Nhạy Cảm 400ml</p>
+                                                        <p class="product__name-en">Micellar Water Ultra Sensitive Skin
+                                                        </p>
+                                                    </div>
+                                                    <div class="product__count">
+                                                        <div class="product__count-start">
+                                                            <div class="product__count-start-icons">
+                                                                <span class="material-icons product__count-start-icon">
+                                                                    star
+                                                                </span>
+                                                                <span class="material-icons product__count-start-icon">
+                                                                    star
+                                                                </span>
+                                                                <span class="material-icons product__count-start-icon">
+                                                                    star
+                                                                </span>
+                                                                <span class="material-icons product__count-start-icon">
+                                                                    star
+                                                                </span>
+                                                                <span class="material-icons product__count-start-icon">
+                                                                    star
+                                                                </span>
+                                                            </div>
+                                                            <span class="product__count-start-num">(34)</span>
+                                                            <span class="wall"></span>
+                                                        </div>
+                                                        <div class="product__count-saled">
+                                                            <span class="material-icons product__count-saled-icon">
+                                                                shopping_cart
+                                                            </span>
+
+                                                            <div class="span product__count-saled-num">1.231</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product__progress">
+                                                        <div class="product__progress-track">
+                                                            <div class="product__progress-fill-wrap">
+                                                                <div class="product__progress-fill"></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="product__progress-value">80%</div>
+                                                    </div>
+
+
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                    </div>
+                                    <div class="slide-item">
+                                        <!-- product -->
+                                        <div class="product">
+                                            <a href="#" class="product-link">
+                                                <div class="product__top">
+                                                    <img src="./assets/images/product8.jpg" alt="" class="product__img">
+                                                </div>
+                                                <div class="product__body">
+                                                    <div class="product__price">
+                                                        <span class="product__price-current">431.000 đ</span>
+                                                        <span class="product__price-old">445.000đ</span>
+                                                        <span class="product__price-sale">21%</span>
+                                                    </div>
+                                                    <p class="product__brand">LA ROCHE-POSAY</p>
+                                                    <div class="product__name">
+                                                        <p class="product__name-vn">Nước Tẩy Trang La Roche-Posay Dành
+                                                            Cho Da Nhạy Cảm 400ml</p>
+                                                        <p class="product__name-en">Micellar Water Ultra Sensitive Skin
+                                                        </p>
+                                                    </div>
+                                                    <div class="product__count">
+                                                        <div class="product__count-start">
+                                                            <div class="product__count-start-icons">
+                                                                <span class="material-icons product__count-start-icon">
+                                                                    star
+                                                                </span>
+                                                                <span class="material-icons product__count-start-icon">
+                                                                    star
+                                                                </span>
+                                                                <span class="material-icons product__count-start-icon">
+                                                                    star
+                                                                </span>
+                                                                <span class="material-icons product__count-start-icon">
+                                                                    star
+                                                                </span>
+                                                                <span class="material-icons product__count-start-icon">
+                                                                    star
+                                                                </span>
+                                                            </div>
+                                                            <span class="product__count-start-num">(34)</span>
+                                                            <span class="wall"></span>
+                                                        </div>
+                                                        <div class="product__count-saled">
+                                                            <span class="material-icons product__count-saled-icon">
+                                                                shopping_cart
+                                                            </span>
+
+                                                            <div class="span product__count-saled-num">1.231</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product__progress">
+                                                        <div class="product__progress-track">
+                                                            <div class="product__progress-fill-wrap">
+                                                                <div class="product__progress-fill"></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="product__progress-value">80%</div>
+                                                    </div>
+
+
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                    </div>
+                                    <div class="slide-item">
+                                        <!-- product -->
+                                        <div class="product">
+                                            <a href="#" class="product-link">
+                                                <div class="product__top">
+                                                    <img src="./assets/images/product8.jpg" alt="" class="product__img">
+                                                </div>
+                                                <div class="product__body">
+                                                    <div class="product__price">
+                                                        <span class="product__price-current">431.000 đ</span>
+                                                        <span class="product__price-old">445.000đ</span>
+                                                        <span class="product__price-sale">21%</span>
+                                                    </div>
+                                                    <p class="product__brand">LA ROCHE-POSAY</p>
+                                                    <div class="product__name">
+                                                        <p class="product__name-vn">Nước Tẩy Trang La Roche-Posay Dành
+                                                            Cho Da Nhạy Cảm 400ml</p>
+                                                        <p class="product__name-en">Micellar Water Ultra Sensitive Skin
+                                                        </p>
+                                                    </div>
+                                                    <div class="product__count">
+                                                        <div class="product__count-start">
+                                                            <div class="product__count-start-icons">
+                                                                <span class="material-icons product__count-start-icon">
+                                                                    star
+                                                                </span>
+                                                                <span class="material-icons product__count-start-icon">
+                                                                    star
+                                                                </span>
+                                                                <span class="material-icons product__count-start-icon">
+                                                                    star
+                                                                </span>
+                                                                <span class="material-icons product__count-start-icon">
+                                                                    star
+                                                                </span>
+                                                                <span class="material-icons product__count-start-icon">
+                                                                    star
+                                                                </span>
+                                                            </div>
+                                                            <span class="product__count-start-num">(34)</span>
+                                                            <span class="wall"></span>
+                                                        </div>
+                                                        <div class="product__count-saled">
+                                                            <span class="material-icons product__count-saled-icon">
+                                                                shopping_cart
+                                                            </span>
+
+                                                            <div class="span product__count-saled-num">1.231</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product__progress">
+                                                        <div class="product__progress-track">
+                                                            <div class="product__progress-fill-wrap">
+                                                                <div class="product__progress-fill"></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="product__progress-value">80%</div>
+                                                    </div>
+
+
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                    </div>
+                                    <div class="slide-item">
+                                        <!-- product -->
+                                        <div class="product">
+                                            <a href="#" class="product-link">
+                                                <div class="product__top">
+                                                    <img src="./assets/images/product8.jpg" alt="" class="product__img">
+                                                </div>
+                                                <div class="product__body">
+                                                    <div class="product__price">
+                                                        <span class="product__price-current">431.000 đ</span>
+                                                        <span class="product__price-old">445.000đ</span>
+                                                        <span class="product__price-sale">21%</span>
+                                                    </div>
+                                                    <p class="product__brand">LA ROCHE-POSAY</p>
+                                                    <div class="product__name">
+                                                        <p class="product__name-vn">Nước Tẩy Trang La Roche-Posay Dành
+                                                            Cho Da Nhạy Cảm 400ml</p>
+                                                        <p class="product__name-en">Micellar Water Ultra Sensitive Skin
+                                                        </p>
+                                                    </div>
+                                                    <div class="product__count">
+                                                        <div class="product__count-start">
+                                                            <div class="product__count-start-icons">
+                                                                <span class="material-icons product__count-start-icon">
+                                                                    star
+                                                                </span>
+                                                                <span class="material-icons product__count-start-icon">
+                                                                    star
+                                                                </span>
+                                                                <span class="material-icons product__count-start-icon">
+                                                                    star
+                                                                </span>
+                                                                <span class="material-icons product__count-start-icon">
+                                                                    star
+                                                                </span>
+                                                                <span class="material-icons product__count-start-icon">
+                                                                    star
+                                                                </span>
+                                                            </div>
+                                                            <span class="product__count-start-num">(34)</span>
+                                                            <span class="wall"></span>
+                                                        </div>
+                                                        <div class="product__count-saled">
+                                                            <span class="material-icons product__count-saled-icon">
+                                                                shopping_cart
+                                                            </span>
+
+                                                            <div class="span product__count-saled-num">1.231</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product__progress">
+                                                        <div class="product__progress-track">
+                                                            <div class="product__progress-fill-wrap">
+                                                                <div class="product__progress-fill"></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="product__progress-value">80%</div>
+                                                    </div>
+
+
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                    </div>
+                                    <div class="slide-item">
+                                        <!-- product -->
+                                        <div class="product">
+                                            <a href="#" class="product-link">
+                                                <div class="product__top">
+                                                    <img src="./assets/images/product8.jpg" alt="" class="product__img">
+                                                </div>
+                                                <div class="product__body">
+                                                    <div class="product__price">
+                                                        <span class="product__price-current">431.000 đ</span>
+                                                        <span class="product__price-old">445.000đ</span>
+                                                        <span class="product__price-sale">21%</span>
+                                                    </div>
+                                                    <p class="product__brand">LA ROCHE-POSAY</p>
+                                                    <div class="product__name">
+                                                        <p class="product__name-vn">Nước Tẩy Trang La Roche-Posay Dành
+                                                            Cho Da Nhạy Cảm 400ml</p>
+                                                        <p class="product__name-en">Micellar Water Ultra Sensitive Skin
+                                                        </p>
+                                                    </div>
+                                                    <div class="product__count">
+                                                        <div class="product__count-start">
+                                                            <div class="product__count-start-icons">
+                                                                <span class="material-icons product__count-start-icon">
+                                                                    star
+                                                                </span>
+                                                                <span class="material-icons product__count-start-icon">
+                                                                    star
+                                                                </span>
+                                                                <span class="material-icons product__count-start-icon">
+                                                                    star
+                                                                </span>
+                                                                <span class="material-icons product__count-start-icon">
+                                                                    star
+                                                                </span>
+                                                                <span class="material-icons product__count-start-icon">
+                                                                    star
+                                                                </span>
+                                                            </div>
+                                                            <span class="product__count-start-num">(34)</span>
+                                                            <span class="wall"></span>
+                                                        </div>
+                                                        <div class="product__count-saled">
+                                                            <span class="material-icons product__count-saled-icon">
+                                                                shopping_cart
+                                                            </span>
+
+                                                            <div class="span product__count-saled-num">1.231</div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product__progress">
+                                                        <div class="product__progress-track">
+                                                            <div class="product__progress-fill-wrap">
+                                                                <div class="product__progress-fill"></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="product__progress-value">80%</div>
+                                                    </div>
+
+
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                                <!-- slide btn -->
+
+                            </div>
+
+                            <div class="section__sub d-none d-md-block">
+                                <div class="section__sub-top">
+                                    <div class="row">
+                                        <a href="#" class="col-md-4">
+                                            <img src="./assets/images/section-4-1.jpg" alt=""
+                                                class="section__sub-top-img">
+                                        </a>
+                                        <a href="#" class="col-md-4">
+                                            <img src="./assets/images/section-4-2.jpg" alt=""
+                                                class="section__sub-top-img">
+                                        </a>
+                                        <a href="#" class="col-md-4">
+                                            <img src="./assets/images/section-4-3.jpg" alt=""
+                                                class="section__sub-top-img">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="section__sub-list">
+                                    <a href="#" class="section__sub-list-item">Sửa rửa mặt</a>
+                                    <a href="#" class="section__sub-list-item">Dưỡng da</a>
+                                    <a href="#" class="section__sub-list-item">Kem chống nắng</a>
+                                    <a href="#" class="section__sub-list-item">Sữa tắm</a>
+                                    <a href="#" class="section__sub-list-item">Nước Hoa hồng</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- section-5 -->
+            <div class="section__wrap section-5">
+                <div class="container-fluid px-4">
+                    <div class="section">
+                        <div class="section__header">
+                            <h2 class="section__header-titel">Gợi ý dành cho bạn</h2>
+                            <a href="#" class="btn section__header-btn">Xem tất cả</a>
+                        </div>
+
+                        <div class="section__body">
+                            <div class="row g-3">
+                                <div class="col-6 col-sm-4 col-lg-3 col-xl-2  ">
+                                    <!-- product -->
+                                    <div class="product">
+                                        <a href="#" class="product-link">
+                                            <div class="product__top">
+                                                <img src="./assets/images/product2.jpg" alt="" class="product__img">
+                                            </div>
+                                            <div class="product__body">
+                                                <div class="product__price">
+                                                    <span class="product__price-current">431.000 đ</span>
+                                                    <span class="product__price-old">445.000đ</span>
+                                                    <span class="product__price-sale">21%</span>
+                                                </div>
+                                                <p class="product__brand">LA ROCHE-POSAY</p>
+                                                <div class="product__name">
+                                                    <p class="product__name-vn">Nước Tẩy Trang La Roche-Posay Dành
+                                                        Cho Da Nhạy Cảm 400ml</p>
+                                                    <p class="product__name-en">Micellar Water Ultra Sensitive Skin
+                                                    </p>
+                                                </div>
+                                                <div class="product__count">
+                                                    <div class="product__count-start">
+                                                        <div class="product__count-start-icons">
+                                                            <span class="material-icons product__count-start-icon">
+                                                                star
+                                                            </span>
+                                                            <span class="material-icons product__count-start-icon">
+                                                                star
+                                                            </span>
+                                                            <span class="material-icons product__count-start-icon">
+                                                                star
+                                                            </span>
+                                                            <span class="material-icons product__count-start-icon">
+                                                                star
+                                                            </span>
+                                                            <span class="material-icons product__count-start-icon">
+                                                                star
+                                                            </span>
+                                                        </div>
+                                                        <span class="product__count-start-num">(34)</span>
+                                                        <span class="wall"></span>
+                                                    </div>
+                                                    <div class="product__count-saled">
+                                                        <span class="material-icons product__count-saled-icon">
+                                                            shopping_cart
+                                                        </span>
+
+                                                        <div class="span product__count-saled-num">1.231</div>
+                                                    </div>
+                                                </div>
+                                                <div class="product__progress">
+                                                    <div class="product__progress-track">
+                                                        <div class="product__progress-fill-wrap">
+                                                            <div class="product__progress-fill"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product__progress-value">80%</div>
+                                                </div>
+
+
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="col-6 col-sm-4 col-lg-3 col-xl-2  ">
+                                    <!-- product -->
+                                    <div class="product">
+                                        <a href="#" class="product-link">
+                                            <div class="product__top">
+                                                <img src="./assets/images/product3.jpg" alt="" class="product__img">
+                                            </div>
+                                            <div class="product__body">
+                                                <div class="product__price">
+                                                    <span class="product__price-current">431.000 đ</span>
+                                                    <span class="product__price-old">445.000đ</span>
+                                                    <span class="product__price-sale">21%</span>
+                                                </div>
+                                                <p class="product__brand">LA ROCHE-POSAY</p>
+                                                <div class="product__name">
+                                                    <p class="product__name-vn">Nước Tẩy Trang La Roche-Posay Dành
+                                                        Cho Da Nhạy Cảm 400ml</p>
+                                                    <p class="product__name-en">Micellar Water Ultra Sensitive Skin
+                                                    </p>
+                                                </div>
+                                                <div class="product__count">
+                                                    <div class="product__count-start">
+                                                        <div class="product__count-start-icons">
+                                                            <span class="material-icons product__count-start-icon">
+                                                                star
+                                                            </span>
+                                                            <span class="material-icons product__count-start-icon">
+                                                                star
+                                                            </span>
+                                                            <span class="material-icons product__count-start-icon">
+                                                                star
+                                                            </span>
+                                                            <span class="material-icons product__count-start-icon">
+                                                                star
+                                                            </span>
+                                                            <span class="material-icons product__count-start-icon">
+                                                                star
+                                                            </span>
+                                                        </div>
+                                                        <span class="product__count-start-num">(34)</span>
+                                                        <span class="wall"></span>
+                                                    </div>
+                                                    <div class="product__count-saled">
+                                                        <span class="material-icons product__count-saled-icon">
+                                                            shopping_cart
+                                                        </span>
+
+                                                        <div class="span product__count-saled-num">1.231</div>
+                                                    </div>
+                                                </div>
+                                                <div class="product__progress">
+                                                    <div class="product__progress-track">
+                                                        <div class="product__progress-fill-wrap">
+                                                            <div class="product__progress-fill"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product__progress-value">80%</div>
+                                                </div>
+
+
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="col-6 col-sm-4 col-lg-3 col-xl-2  ">
+                                    <!-- product -->
+                                    <div class="product">
+                                        <a href="#" class="product-link">
+                                            <div class="product__top">
+                                                <img src="./assets/images/product9.jpg" alt="" class="product__img">
+                                            </div>
+                                            <div class="product__body">
+                                                <div class="product__price">
+                                                    <span class="product__price-current">431.000 đ</span>
+                                                    <span class="product__price-old">445.000đ</span>
+                                                    <span class="product__price-sale">21%</span>
+                                                </div>
+                                                <p class="product__brand">LA ROCHE-POSAY</p>
+                                                <div class="product__name">
+                                                    <p class="product__name-vn">Nước Tẩy Trang La Roche-Posay Dành
+                                                        Cho Da Nhạy Cảm 400ml</p>
+                                                    <p class="product__name-en">Micellar Water Ultra Sensitive Skin
+                                                    </p>
+                                                </div>
+                                                <div class="product__count">
+                                                    <div class="product__count-start">
+                                                        <div class="product__count-start-icons">
+                                                            <span class="material-icons product__count-start-icon">
+                                                                star
+                                                            </span>
+                                                            <span class="material-icons product__count-start-icon">
+                                                                star
+                                                            </span>
+                                                            <span class="material-icons product__count-start-icon">
+                                                                star
+                                                            </span>
+                                                            <span class="material-icons product__count-start-icon">
+                                                                star
+                                                            </span>
+                                                            <span class="material-icons product__count-start-icon">
+                                                                star
+                                                            </span>
+                                                        </div>
+                                                        <span class="product__count-start-num">(34)</span>
+                                                        <span class="wall"></span>
+                                                    </div>
+                                                    <div class="product__count-saled">
+                                                        <span class="material-icons product__count-saled-icon">
+                                                            shopping_cart
+                                                        </span>
+
+                                                        <div class="span product__count-saled-num">1.231</div>
+                                                    </div>
+                                                </div>
+                                                <div class="product__progress">
+                                                    <div class="product__progress-track">
+                                                        <div class="product__progress-fill-wrap">
+                                                            <div class="product__progress-fill"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product__progress-value">80%</div>
+                                                </div>
+
+
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="col-6 col-sm-4 col-lg-3 col-xl-2  ">
+                                    <!-- product -->
+                                    <div class="product">
+                                        <a href="#" class="product-link">
+                                            <div class="product__top">
+                                                <img src="./assets/images/product8.jpg" alt="" class="product__img">
+                                            </div>
+                                            <div class="product__body">
+                                                <div class="product__price">
+                                                    <span class="product__price-current">431.000 đ</span>
+                                                    <span class="product__price-old">445.000đ</span>
+                                                    <span class="product__price-sale">21%</span>
+                                                </div>
+                                                <p class="product__brand">LA ROCHE-POSAY</p>
+                                                <div class="product__name">
+                                                    <p class="product__name-vn">Nước Tẩy Trang La Roche-Posay Dành
+                                                        Cho Da Nhạy Cảm 400ml</p>
+                                                    <p class="product__name-en">Micellar Water Ultra Sensitive Skin
+                                                    </p>
+                                                </div>
+                                                <div class="product__count">
+                                                    <div class="product__count-start">
+                                                        <div class="product__count-start-icons">
+                                                            <span class="material-icons product__count-start-icon">
+                                                                star
+                                                            </span>
+                                                            <span class="material-icons product__count-start-icon">
+                                                                star
+                                                            </span>
+                                                            <span class="material-icons product__count-start-icon">
+                                                                star
+                                                            </span>
+                                                            <span class="material-icons product__count-start-icon">
+                                                                star
+                                                            </span>
+                                                            <span class="material-icons product__count-start-icon">
+                                                                star
+                                                            </span>
+                                                        </div>
+                                                        <span class="product__count-start-num">(34)</span>
+                                                        <span class="wall"></span>
+                                                    </div>
+                                                    <div class="product__count-saled">
+                                                        <span class="material-icons product__count-saled-icon">
+                                                            shopping_cart
+                                                        </span>
+
+                                                        <div class="span product__count-saled-num">1.231</div>
+                                                    </div>
+                                                </div>
+                                                <div class="product__progress">
+                                                    <div class="product__progress-track">
+                                                        <div class="product__progress-fill-wrap">
+                                                            <div class="product__progress-fill"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product__progress-value">80%</div>
+                                                </div>
+
+
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="col-6 col-sm-4 col-lg-3 col-xl-2  ">
+                                    <!-- product -->
+                                    <div class="product">
+                                        <a href="#" class="product-link">
+                                            <div class="product__top">
+                                                <img src="./assets/images/product8.jpg" alt="" class="product__img">
+                                            </div>
+                                            <div class="product__body">
+                                                <div class="product__price">
+                                                    <span class="product__price-current">431.000 đ</span>
+                                                    <span class="product__price-old">445.000đ</span>
+                                                    <span class="product__price-sale">21%</span>
+                                                </div>
+                                                <p class="product__brand">LA ROCHE-POSAY</p>
+                                                <div class="product__name">
+                                                    <p class="product__name-vn">Nước Tẩy Trang La Roche-Posay Dành
+                                                        Cho Da Nhạy Cảm 400ml</p>
+                                                    <p class="product__name-en">Micellar Water Ultra Sensitive Skin
+                                                    </p>
+                                                </div>
+                                                <div class="product__count">
+                                                    <div class="product__count-start">
+                                                        <div class="product__count-start-icons">
+                                                            <span class="material-icons product__count-start-icon">
+                                                                star
+                                                            </span>
+                                                            <span class="material-icons product__count-start-icon">
+                                                                star
+                                                            </span>
+                                                            <span class="material-icons product__count-start-icon">
+                                                                star
+                                                            </span>
+                                                            <span class="material-icons product__count-start-icon">
+                                                                star
+                                                            </span>
+                                                            <span class="material-icons product__count-start-icon">
+                                                                star
+                                                            </span>
+                                                        </div>
+                                                        <span class="product__count-start-num">(34)</span>
+                                                        <span class="wall"></span>
+                                                    </div>
+                                                    <div class="product__count-saled">
+                                                        <span class="material-icons product__count-saled-icon">
+                                                            shopping_cart
+                                                        </span>
+
+                                                        <div class="span product__count-saled-num">1.231</div>
+                                                    </div>
+                                                </div>
+                                                <div class="product__progress">
+                                                    <div class="product__progress-track">
+                                                        <div class="product__progress-fill-wrap">
+                                                            <div class="product__progress-fill"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product__progress-value">80%</div>
+                                                </div>
+
+
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="col-6 col-sm-4 col-lg-3 col-xl-2  ">
+                                    <!-- product -->
+                                    <div class="product">
+                                        <a href="#" class="product-link">
+                                            <div class="product__top">
+                                                <img src="./assets/images/product8.jpg" alt="" class="product__img">
+                                            </div>
+                                            <div class="product__body">
+                                                <div class="product__price">
+                                                    <span class="product__price-current">431.000 đ</span>
+                                                    <span class="product__price-old">445.000đ</span>
+                                                    <span class="product__price-sale">21%</span>
+                                                </div>
+                                                <p class="product__brand">LA ROCHE-POSAY</p>
+                                                <div class="product__name">
+                                                    <p class="product__name-vn">Nước Tẩy Trang La Roche-Posay Dành
+                                                        Cho Da Nhạy Cảm 400ml</p>
+                                                    <p class="product__name-en">Micellar Water Ultra Sensitive Skin
+                                                    </p>
+                                                </div>
+                                                <div class="product__count">
+                                                    <div class="product__count-start">
+                                                        <div class="product__count-start-icons">
+                                                            <span class="material-icons product__count-start-icon">
+                                                                star
+                                                            </span>
+                                                            <span class="material-icons product__count-start-icon">
+                                                                star
+                                                            </span>
+                                                            <span class="material-icons product__count-start-icon">
+                                                                star
+                                                            </span>
+                                                            <span class="material-icons product__count-start-icon">
+                                                                star
+                                                            </span>
+                                                            <span class="material-icons product__count-start-icon">
+                                                                star
+                                                            </span>
+                                                        </div>
+                                                        <span class="product__count-start-num">(34)</span>
+                                                        <span class="wall"></span>
+                                                    </div>
+                                                    <div class="product__count-saled">
+                                                        <span class="material-icons product__count-saled-icon">
+                                                            shopping_cart
+                                                        </span>
+
+                                                        <div class="span product__count-saled-num">1.231</div>
+                                                    </div>
+                                                </div>
+                                                <div class="product__progress">
+                                                    <div class="product__progress-track">
+                                                        <div class="product__progress-fill-wrap">
+                                                            <div class="product__progress-fill"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product__progress-value">80%</div>
+                                                </div>
+
+
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="col-6 col-sm-4 col-lg-3 col-xl-2  ">
+                                    <!-- product -->
+                                    <div class="product">
+                                        <a href="#" class="product-link">
+                                            <div class="product__top">
+                                                <img src="./assets/images/product8.jpg" alt="" class="product__img">
+                                            </div>
+                                            <div class="product__body">
+                                                <div class="product__price">
+                                                    <span class="product__price-current">431.000 đ</span>
+                                                    <span class="product__price-old">445.000đ</span>
+                                                    <span class="product__price-sale">21%</span>
+                                                </div>
+                                                <p class="product__brand">LA ROCHE-POSAY</p>
+                                                <div class="product__name">
+                                                    <p class="product__name-vn">Nước Tẩy Trang La Roche-Posay Dành
+                                                        Cho Da Nhạy Cảm 400ml</p>
+                                                    <p class="product__name-en">Micellar Water Ultra Sensitive Skin
+                                                    </p>
+                                                </div>
+                                                <div class="product__count">
+                                                    <div class="product__count-start">
+                                                        <div class="product__count-start-icons">
+                                                            <span class="material-icons product__count-start-icon">
+                                                                star
+                                                            </span>
+                                                            <span class="material-icons product__count-start-icon">
+                                                                star
+                                                            </span>
+                                                            <span class="material-icons product__count-start-icon">
+                                                                star
+                                                            </span>
+                                                            <span class="material-icons product__count-start-icon">
+                                                                star
+                                                            </span>
+                                                            <span class="material-icons product__count-start-icon">
+                                                                star
+                                                            </span>
+                                                        </div>
+                                                        <span class="product__count-start-num">(34)</span>
+                                                        <span class="wall"></span>
+                                                    </div>
+                                                    <div class="product__count-saled">
+                                                        <span class="material-icons product__count-saled-icon">
+                                                            shopping_cart
+                                                        </span>
+
+                                                        <div class="span product__count-saled-num">1.231</div>
+                                                    </div>
+                                                </div>
+                                                <div class="product__progress">
+                                                    <div class="product__progress-track">
+                                                        <div class="product__progress-fill-wrap">
+                                                            <div class="product__progress-fill"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product__progress-value">80%</div>
+                                                </div>
+
+
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="col-6 col-sm-4 col-lg-3 col-xl-2  ">
+                                    <!-- product -->
+                                    <div class="product">
+                                        <a href="#" class="product-link">
+                                            <div class="product__top">
+                                                <img src="./assets/images/product8.jpg" alt="" class="product__img">
+                                            </div>
+                                            <div class="product__body">
+                                                <div class="product__price">
+                                                    <span class="product__price-current">431.000 đ</span>
+                                                    <span class="product__price-old">445.000đ</span>
+                                                    <span class="product__price-sale">21%</span>
+                                                </div>
+                                                <p class="product__brand">LA ROCHE-POSAY</p>
+                                                <div class="product__name">
+                                                    <p class="product__name-vn">Nước Tẩy Trang La Roche-Posay Dành
+                                                        Cho Da Nhạy Cảm 400ml</p>
+                                                    <p class="product__name-en">Micellar Water Ultra Sensitive Skin
+                                                    </p>
+                                                </div>
+                                                <div class="product__count">
+                                                    <div class="product__count-start">
+                                                        <div class="product__count-start-icons">
+                                                            <span class="material-icons product__count-start-icon">
+                                                                star
+                                                            </span>
+                                                            <span class="material-icons product__count-start-icon">
+                                                                star
+                                                            </span>
+                                                            <span class="material-icons product__count-start-icon">
+                                                                star
+                                                            </span>
+                                                            <span class="material-icons product__count-start-icon">
+                                                                star
+                                                            </span>
+                                                            <span class="material-icons product__count-start-icon">
+                                                                star
+                                                            </span>
+                                                        </div>
+                                                        <span class="product__count-start-num">(34)</span>
+                                                        <span class="wall"></span>
+                                                    </div>
+                                                    <div class="product__count-saled">
+                                                        <span class="material-icons product__count-saled-icon">
+                                                            shopping_cart
+                                                        </span>
+
+                                                        <div class="span product__count-saled-num">1.231</div>
+                                                    </div>
+                                                </div>
+                                                <div class="product__progress">
+                                                    <div class="product__progress-track">
+                                                        <div class="product__progress-fill-wrap">
+                                                            <div class="product__progress-fill"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product__progress-value">80%</div>
+                                                </div>
+
+
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="col-6 col-sm-4 col-lg-3 col-xl-2  ">
+                                    <!-- product -->
+                                    <div class="product">
+                                        <a href="#" class="product-link">
+                                            <div class="product__top">
+                                                <img src="./assets/images/product8.jpg" alt="" class="product__img">
+                                            </div>
+                                            <div class="product__body">
+                                                <div class="product__price">
+                                                    <span class="product__price-current">431.000 đ</span>
+                                                    <span class="product__price-old">445.000đ</span>
+                                                    <span class="product__price-sale">21%</span>
+                                                </div>
+                                                <p class="product__brand">LA ROCHE-POSAY</p>
+                                                <div class="product__name">
+                                                    <p class="product__name-vn">Nước Tẩy Trang La Roche-Posay Dành
+                                                        Cho Da Nhạy Cảm 400ml</p>
+                                                    <p class="product__name-en">Micellar Water Ultra Sensitive Skin
+                                                    </p>
+                                                </div>
+                                                <div class="product__count">
+                                                    <div class="product__count-start">
+                                                        <div class="product__count-start-icons">
+                                                            <span class="material-icons product__count-start-icon">
+                                                                star
+                                                            </span>
+                                                            <span class="material-icons product__count-start-icon">
+                                                                star
+                                                            </span>
+                                                            <span class="material-icons product__count-start-icon">
+                                                                star
+                                                            </span>
+                                                            <span class="material-icons product__count-start-icon">
+                                                                star
+                                                            </span>
+                                                            <span class="material-icons product__count-start-icon">
+                                                                star
+                                                            </span>
+                                                        </div>
+                                                        <span class="product__count-start-num">(34)</span>
+                                                        <span class="wall"></span>
+                                                    </div>
+                                                    <div class="product__count-saled">
+                                                        <span class="material-icons product__count-saled-icon">
+                                                            shopping_cart
+                                                        </span>
+
+                                                        <div class="span product__count-saled-num">1.231</div>
+                                                    </div>
+                                                </div>
+                                                <div class="product__progress">
+                                                    <div class="product__progress-track">
+                                                        <div class="product__progress-fill-wrap">
+                                                            <div class="product__progress-fill"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product__progress-value">80%</div>
+                                                </div>
+
+
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="col-6 col-sm-4 col-lg-3 col-xl-2  ">
+                                    <!-- product -->
+                                    <div class="product">
+                                        <a href="#" class="product-link">
+                                            <div class="product__top">
+                                                <img src="./assets/images/product8.jpg" alt="" class="product__img">
+                                            </div>
+                                            <div class="product__body">
+                                                <div class="product__price">
+                                                    <span class="product__price-current">431.000 đ</span>
+                                                    <span class="product__price-old">445.000đ</span>
+                                                    <span class="product__price-sale">21%</span>
+                                                </div>
+                                                <p class="product__brand">LA ROCHE-POSAY</p>
+                                                <div class="product__name">
+                                                    <p class="product__name-vn">Nước Tẩy Trang La Roche-Posay Dành
+                                                        Cho Da Nhạy Cảm 400ml</p>
+                                                    <p class="product__name-en">Micellar Water Ultra Sensitive Skin
+                                                    </p>
+                                                </div>
+                                                <div class="product__count">
+                                                    <div class="product__count-start">
+                                                        <div class="product__count-start-icons">
+                                                            <span class="material-icons product__count-start-icon">
+                                                                star
+                                                            </span>
+                                                            <span class="material-icons product__count-start-icon">
+                                                                star
+                                                            </span>
+                                                            <span class="material-icons product__count-start-icon">
+                                                                star
+                                                            </span>
+                                                            <span class="material-icons product__count-start-icon">
+                                                                star
+                                                            </span>
+                                                            <span class="material-icons product__count-start-icon">
+                                                                star
+                                                            </span>
+                                                        </div>
+                                                        <span class="product__count-start-num">(34)</span>
+                                                        <span class="wall"></span>
+                                                    </div>
+                                                    <div class="product__count-saled">
+                                                        <span class="material-icons product__count-saled-icon">
+                                                            shopping_cart
+                                                        </span>
+
+                                                        <div class="span product__count-saled-num">1.231</div>
+                                                    </div>
+                                                </div>
+                                                <div class="product__progress">
+                                                    <div class="product__progress-track">
+                                                        <div class="product__progress-fill-wrap">
+                                                            <div class="product__progress-fill"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product__progress-value">80%</div>
+                                                </div>
+
+
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="col-6 col-sm-4 col-lg-3 col-xl-2  ">
+                                    <!-- product -->
+                                    <div class="product">
+                                        <a href="#" class="product-link">
+                                            <div class="product__top">
+                                                <img src="./assets/images/product8.jpg" alt="" class="product__img">
+                                            </div>
+                                            <div class="product__body">
+                                                <div class="product__price">
+                                                    <span class="product__price-current">431.000 đ</span>
+                                                    <span class="product__price-old">445.000đ</span>
+                                                    <span class="product__price-sale">21%</span>
+                                                </div>
+                                                <p class="product__brand">LA ROCHE-POSAY</p>
+                                                <div class="product__name">
+                                                    <p class="product__name-vn">Nước Tẩy Trang La Roche-Posay Dành
+                                                        Cho Da Nhạy Cảm 400ml</p>
+                                                    <p class="product__name-en">Micellar Water Ultra Sensitive Skin
+                                                    </p>
+                                                </div>
+                                                <div class="product__count">
+                                                    <div class="product__count-start">
+                                                        <div class="product__count-start-icons">
+                                                            <span class="material-icons product__count-start-icon">
+                                                                star
+                                                            </span>
+                                                            <span class="material-icons product__count-start-icon">
+                                                                star
+                                                            </span>
+                                                            <span class="material-icons product__count-start-icon">
+                                                                star
+                                                            </span>
+                                                            <span class="material-icons product__count-start-icon">
+                                                                star
+                                                            </span>
+                                                            <span class="material-icons product__count-start-icon">
+                                                                star
+                                                            </span>
+                                                        </div>
+                                                        <span class="product__count-start-num">(34)</span>
+                                                        <span class="wall"></span>
+                                                    </div>
+                                                    <div class="product__count-saled">
+                                                        <span class="material-icons product__count-saled-icon">
+                                                            shopping_cart
+                                                        </span>
+
+                                                        <div class="span product__count-saled-num">1.231</div>
+                                                    </div>
+                                                </div>
+                                                <div class="product__progress">
+                                                    <div class="product__progress-track">
+                                                        <div class="product__progress-fill-wrap">
+                                                            <div class="product__progress-fill"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product__progress-value">80%</div>
+                                                </div>
+
+
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="col-6 col-sm-4 col-lg-3 col-xl-2 ">
+                                    <!-- product -->
+                                    <div class="product">
+                                        <a href="#" class="product-link">
+                                            <div class="product__top">
+                                                <img src="./assets/images/product8.jpg" alt="" class="product__img">
+                                            </div>
+                                            <div class="product__body">
+                                                <div class="product__price">
+                                                    <span class="product__price-current">431.000 đ</span>
+                                                    <span class="product__price-old">445.000đ</span>
+                                                    <span class="product__price-sale">21%</span>
+                                                </div>
+                                                <p class="product__brand">LA ROCHE-POSAY</p>
+                                                <div class="product__name">
+                                                    <p class="product__name-vn">Nước Tẩy Trang La Roche-Posay Dành
+                                                        Cho Da Nhạy Cảm 400ml</p>
+                                                    <p class="product__name-en">Micellar Water Ultra Sensitive Skin
+                                                    </p>
+                                                </div>
+                                                <div class="product__count">
+                                                    <div class="product__count-start">
+                                                        <div class="product__count-start-icons">
+                                                            <span class="material-icons product__count-start-icon">
+                                                                star
+                                                            </span>
+                                                            <span class="material-icons product__count-start-icon">
+                                                                star
+                                                            </span>
+                                                            <span class="material-icons product__count-start-icon">
+                                                                star
+                                                            </span>
+                                                            <span class="material-icons product__count-start-icon">
+                                                                star
+                                                            </span>
+                                                            <span class="material-icons product__count-start-icon">
+                                                                star
+                                                            </span>
+                                                        </div>
+                                                        <span class="product__count-start-num">(34)</span>
+                                                        <span class="wall"></span>
+                                                    </div>
+                                                    <div class="product__count-saled">
+                                                        <span class="material-icons product__count-saled-icon">
+                                                            shopping_cart
+                                                        </span>
+
+                                                        <div class="span product__count-saled-num">1.231</div>
+                                                    </div>
+                                                </div>
+                                                <div class="product__progress">
+                                                    <div class="product__progress-track">
+                                                        <div class="product__progress-fill-wrap">
+                                                            <div class="product__progress-fill"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product__progress-value">80%</div>
+                                                </div>
+
+
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="section__link-wrap">
+                                        <a href="#" class="section__link">Tải thêm</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- section-6 -->
+            <div class="section__wrap section-6">
+                <div class="container-fluid px-4">
+                    <div class="sevice">
+                        <div class="row">
+                            <div class="col-12 col-lg-7">
+                                <div class="row">
+                                    <a href="#" class="col-md-3 d-none d-md-block">
+                                        <div class="sevice__item">
+                                            <img src="https://hasaki.vn/images/graphics/icon_footer_1.svg" alt=""
+                                                class="sevice__img">
+                                            <p class="sevice__text">Thanh toán khi nhận hàng</p>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="col-4 col-md-3">
+                                        <div class="sevice__item sevice__item-free">
+                                            <img src="https://hasaki.vn/images/graphics/icon_footer_2.svg" alt=""
+                                                class="sevice__img">
+                                            <p class="sevice__text">Now free 2H</p>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="col-4 col-md-3">
+                                        <div class="sevice__item">
+                                            <img src="https://hasaki.vn/images/graphics/icon_footer_3.svg" alt=""
+                                                class="sevice__img">
+                                            <p class="sevice__text">14 ngày đổi trả miễn phí</p>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="col-4 col-md-3">
+                                        <div class="sevice__item">
+                                            <img src="https://hasaki.vn/images/graphics/icon_footer_4.svg" alt=""
+                                                class="sevice__img">
+                                            <p class="sevice__text">Thương hiệu uy tín toàn cầu</p>
+                                        </div>
+                                    </a>
+                                </div>
+
+                            </div>
+
+                            <div class="col-lg-5 d-none d-lg-block">
+                                <div class="sevice__right ">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <div class="sevice__right-item">
+                                                <img src="https://hasaki.vn/images/graphics/icons_hotline_kn.svg" alt=""
+                                                    class="sevice__right-img">
+                                                <div class="sevice__right-group">
+                                                    <p class="sevice__right-text">Khiếu nại, góp ý</p>
+                                                    <p class="sevice__right-num">1800 6310</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="sevice__right-item">
+                                                <img src="https://hasaki.vn/images/graphics/icons_hotline_tv.svg" alt=""
+                                                    class="sevice__right-img">
+                                                <div class="sevice__right-group">
+                                                    <p class="sevice__right-text">Tư vấn</p>
+                                                    <p class="sevice__right-num">1800 6324</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+
+        <footer class="footer">
+            <div class="container-fluid px-4">
+                <div class="row">
+                    <div class="col-12 col-lg-7">
+                        <div class="row">
+                            <div class="col-sm-4 col-lg-5  text-center">
+                                <div class="footer__item">
+                                    <h4 class="footer__item-titel">HỖ TRỢ KHÁCH HÀNG</h4>
+                                    <span class="footer__item-link">
+                                        <span class="footer__item-link-text active">Hotline: 1800 6324 <br></span>
+                                        <span class="footer__item-link-text">( miễn phí, 08-22h kể cả T7, CN)</span>
+                                    </span>
+                                    <a href="#" class="footer__item-link">
+                                        <span class="footer__item-link-text">Các câu hỏi thường gặp</span>
+                                    </a>
+                                    <a href="#" class="footer__item-link">
+                                        <span class="footer__item-link-text">Gửi yêu cầu hỗ trợ</span>
+                                    </a>
+                                    <a href="#" class="footer__item-link">
+                                        <span class="footer__item-link-text">Hướng dẫn đặt hàng</span>
+                                    </a>
+                                    <a href="#" class="footer__item-link">
+                                        <span class="footer__item-link-text">Phương thức vận chuyển</span>
+                                    </a>
+                                    <a href="#" class="footer__item-link">
+                                        <span class="footer__item-link-text">Chính sách đổi trả</span>
+                                    </a>
+
+                                </div>
+                            </div>
+                            <div class="col-sm-4 col-lg-3  text-center">
+                                <div class="footer__item">
+                                    <h4 class="footer__item-titel">về hasaki.vn</h4>
+
+                                    <a href="#" class="footer__item-link">
+                                        <span class="footer__item-link-text">Giới thiệu Hasaki.vn</span>
+                                    </a>
+                                    <a href="#" class="footer__item-link">
+                                        <span class="footer__item-link-text">Tuyển Dụng</span>
+                                    </a>
+                                    <a href="#" class="footer__item-link">
+                                        <span class="footer__item-link-text">Chính sách bảo mật</span>
+                                    </a>
+                                    <a href="#" class="footer__item-link">
+                                        <span class="footer__item-link-text">Điều khoản sử dụng</span>
+                                    </a>
+                                    <a href="#" class="footer__item-link">
+                                        <span class="footer__item-link-text">Liên hệ</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 col-lg-4 text-center ">
+                                <div class="footer__item">
+                                    <h4 class="footer__item-titel">HỢP TÁC & LIÊN KẾT</h4>
+                                    <a href="#" class="footer__item-link">
+                                        <span class="footer__item-link-text">https://hasaki.vn/spa.html</span>
+                                    </a>
+                                    <a href="#" class="footer__item-link">
+                                        <span class="footer__item-link-text">Hasaki cẩm nang</span>
+                                    </a>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-5 d-none d-lg-block">
+                        <div class="footer__form">
+                            <p class="footer__form-label">Cập nhật thông tin khuyến mãi</p>
+                            <div class="footer__form-group flex-wrap">
+                                <input type="email" class="footer__form-input" placeholder="Email của bạn">
+                                <label class="footer__form-radio">
+                                    <input type="radio" name="gender" id="" value="male"
+                                        class="footer__form-radio-item">
+                                    Nam
+                                </label>
+                                <label class="footer__form-radio">
+                                    <input type="radio" name="gender" id="" value="female"
+                                        class="footer__form-radio-item">
+                                    Nữ
+                                </label>
+                                <div class="btn footer__form-btn ">Đăng kí</div>
+                            </div>
+                            <p class="footer__form-text">Đăng ký nhận tin từ Hasaki.vn, cơ hội nhận quyền lợi giảm
+                                giá riêng biệt.</p>
+                        </div>
+
+                        <div class="footer__download d-none d-lg-flex">
+                            <a href="#" class="footer__download-link">
+                                <img src="./assets/images/footer-qr.png" class="footer__qr">
+                            </a>
+                            <div class="footer__media">
+                                <a href="#" class="footer__media-item">
+                                    <img src="https://hasaki.vn/images/img_app_store.svg" alt=""
+                                        class="footer__media-img">
+                                </a>
+                                <a href="#" class="footer__media-item">
+                                    <img src="https://hasaki.vn/images/img_google_play.svg" alt=""
+                                        class="footer__media-img">
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="copyright">
+                        <p class="copyright-text">Chỉ là bản copy - Bản quyền của <a href="#"
+                                class="copyright-author">Hasaki.vn</a></p>
+
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="./assets/script/index.js"></script>
+</body>
+
+</html>
